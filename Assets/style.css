@@ -153,6 +153,46 @@ display: flex;
  margin-top: 80px;
 }
 
+#code-academy .container .bottom-part  .row .col-6 .academic-transcript{
+   display: flex;
+}
+
+#code-academy .container .bottom-part  .row .col-6 .academic-transcript .title p
+{
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 60%;
+}
+#code-academy .container .bottom-part  .row .col-6 .academic-transcript .title h5{
+  margin-left: 10px;
+  font-size: 25px;
+}
+#code-academy .container .bottom-part  .row .col-6 .academic-transcript .title .end-title {
+ margin-top: 80px;
+}
+#code-academy .container .bottom-part  .row .col-6 .mentor-system{
+   display: flex;
+}
+
+#code-academy .container .bottom-part  .row .col-6 .mentor-system .title p
+{
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 60%;
+}
+#code-academy .container .bottom-part  .row .col-6 .mentor-system .title h5{
+  margin-left: 10px;
+  font-size: 25px;
+}
+#code-academy .container .bottom-part  .row .col-6 .mentor-system .title .end-title {
+ margin-top: 80px;
+}
+#code-academy .container  .top-part .title-bottom p{
+   font-size: 20px;
+   width: 45%;
+}
  
 
  
