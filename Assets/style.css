@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#education-parts{
+    padding: 100px 100px
+}
+#education-parts .container{
+display: flex;
+}
+.container .title-top h2{
+    font-family: "Visby CF", Sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+ .container .title-top span{
+    font-size: 33px;
+
+}
+/* .container .title-top span::after{
+    content: "";
+    background-image:  url("/Assets/color.png");
+    width: 20px;
+    height: 20px;
+} */
+.container .color-img{
+    margin-top: 10px;
+}
+ .container .title-bottom{
+    margin-top: 20px;
+}
+#education-parts .container .left-part{
+    width: 50%;
+}
+#education-parts .container .title-bottom p{
+    width: 55%;
+}
+#education-parts .container .right-part{
+    width: 50%;
+}
+
+#education-parts .container .right-part .row{
+    display: flex;
+}
+#education-parts .container .right-part .row .col-6 i{
+ font-size: 60px;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+}
+#education-parts .container .right-part .row .col-6 h4{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+#education-parts .container .right-part .row .col-6 {
+    width: 200px;
+    height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.155);
+  position: relative;
+ }
+ #education-parts .container .right-part .row:nth-child(1) .col-6:nth-child(1):hover{
+    background-color: purple;
+ }
+ #education-parts .container .right-part .row:nth-child(1) .col-6:nth-child(2):hover{
+    background-color: yellow;
+ }
+ #education-parts .container .right-part .row:nth-child(2) .col-6:nth-child(1):hover{
+    background-color: blue;
+ }
+ #education-parts .container .right-part .row:nth-child(2) .col-6:nth-child(2):hover{
+    background-color: green;
+ }
+ #education-parts .container .right-part .row .col-6:hover{
+    color: white;
+ }
+ #code-academy{
+    padding: 2% 5%;
+ }
+ /* #CodeAcademy .bottom-part {
+    padding: 10% 10%;
+ } */
+
+ #code-academy.container .top-part .title-bottom p{
+    width: 40%;
+ }
+ #code-academy .container .top-part .title-top span{
+    font-family: visby cf,Sans-serif;
+    font-size: 50px;
+    font-weight: 300 
+ }
+ #code-academy .container .top-part .title-top h2{
+    font-family: visby cf,Sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+ }
+ #code-academy .container .bottom-part{
+    margin-top: 50px
+ }
+ #code-academy .container .bottom-part  .row {
+    display: flex;
+    /* justify-content: space-around;
+    margin-bottom: 10px; */
+ }
+ #code-academy .container .bottom-part  .row .col-6  {
+    display: flex;
+    width: 50%;
+    /* height: 200px; */
+    /* border: 1px solid rgba(0, 0, 0, 0.155); */
+    position: relative;  
+
+
+ }
+ #code-academy .container .bottom-part  .row .col-6 .project-about{
+    display: flex;
+ }
+
+ #code-academy .container .bottom-part  .row .col-6 .project-about .title p
+ {
+   margin-left: 10px;
+   font-size: 20px;
+   margin-top: 10px;
+   width: 60%;
+ }
+ #code-academy .container .bottom-part  .row .col-6 .project-about .title h5{
+  
+   margin-left: 10px;
+   font-size: 25px;
+ }
+ #code-academy .container .bottom-part  .row .col-6 .project-about .title .end-title {
+  margin-top: 80px;
+ }
+
+ #code-academy .container .bottom-part  .row .col-6 .practice-method{
+   display: flex;
+}
+
+#code-academy .container .bottom-part  .row .col-6 .practice-method .title p
+{
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 60%;
+}
+#code-academy .container .bottom-part  .row .col-6 .practice-method .title h5{
+ 
+  margin-left: 10px;
+  font-size: 25px;
+}
+#code-academy .container .bottom-part  .row .col-6 .practice-method .title .end-title {
+ margin-top: 80px;
+}
+
+ 
+
+ 
+ 
