@@ -19,12 +19,6 @@ display: flex;
     font-size: 33px;
 
 }
-/* .container .title-top span::after{
-    content: "";
-    background-image:  url("/Assets/color.png");
-    width: 20px;
-    height: 20px;
-} */
 .container .color-img{
     margin-top: 10px;
 }
@@ -60,6 +54,7 @@ display: flex;
     height: 200px;
   border: 1px solid rgba(0, 0, 0, 0.155);
   position: relative;
+  transition: transform 0.2s;
  }
  #education-parts .container .right-part .row:nth-child(1) .col-6:nth-child(1):hover{
     background-color: purple;
@@ -75,6 +70,7 @@ display: flex;
  }
  #education-parts .container .right-part .row .col-6:hover{
     color: white;
+    transform: scale(1.2);
  }
  #code-academy{
     padding: 2% 5%;
